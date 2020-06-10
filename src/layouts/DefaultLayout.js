@@ -23,7 +23,7 @@ class DefaultLayout extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="container">
           <Header paths={routes} />
           <Switch>{this.getRoutes(routes)}</Switch>
       </div>
