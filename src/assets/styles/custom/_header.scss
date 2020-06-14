@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+  z-index: 9999;
   display: flex;
   align-items : center;
   justify-content: space-between;
@@ -6,8 +8,26 @@
   height: 80px;
   @include box-shadow($header-shadow);
   background-color: #ffffff;
+  .mainLogo {
+    width: 135px;
+    height: 43px;
+    .logo-text {
+      @include imgRetina(sprite, png, 135px, 43px, -1px, 0);
+      width: 135px;
+      height: 100%;
+      display: block;
+      z-index: -9;
+      text-indent: -99999px;
+    }
+  }
   .mainMenu {
     position: relative;
+    ul {
+      > li {
+        display: inline-block;
+        margin-right: 15px;
+      }
+    }
   }
   .mainMenu {
     position: relative;
@@ -17,6 +37,33 @@
   }
   .headerUtil {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .headerLanguage {
+      display: inline-block;
+      border: solid 2px $text;
+      padding: 6px;
+    }
+    .headerSearch {
+      display: inline-block;
+      @include imgRetina(sprite, png, 27px, 27px, -140px, -26px);
+      width: 27px;
+      height: 27px;
+      margin: 0 32px;
+    }
+    .headerMenu {
+      display: inline-block;
+      border: none;
+      cursor: pointer;
+      @include imgRetina(sprite, png, 26px, 20px, -141px, -57px);
+      width: 26px;
+      height: 20px;
+    }
   }
+}
+
+.home-header {
+  background-color: transparent !important;
 }
 

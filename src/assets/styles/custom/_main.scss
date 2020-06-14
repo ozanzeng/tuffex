@@ -1,15 +1,37 @@
 html,
 body {
   position: relative;
+  height: 100vh;
   width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
+overflow: hidden;
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: $text;
 }
 .container-fluid {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: $text;
+  text-decoration: none;
+}
+
+.hidden {
+  display: block;
+}
+
+.flex {
+  display: flex;
 }

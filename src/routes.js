@@ -1,29 +1,29 @@
 // App pages
 import ProductPage from './containers/ProductPage/ProductPage';
-import StaticPage from './containers/StaticPage/StaticPage';
+import HomePage from './containers/HomePage';
 
 // Auth pages
 import LoginPage from './containers/LoginPage/LoginPage';
 
-var routes = [
+const routes = [
   {
-    path: "/product",
-    name: "Product",
+    path: '/product',
+    name: 'Product',
     component: ProductPage,
-    layout: "/default"
+    layout: '/default',
   },
   {
-    path: "/home",
-    name: "Home",
-    component: StaticPage,
-    layout: "/default"
+    path: '/ana-sayfa',
+    name: 'Ana Sayfa',
+    component: HomePage,
+    layout: '/default',
   },
   {
-    path: "/login",
-    name: "Login",
+    path: '/login',
+    name: 'Login',
     component: LoginPage,
-    layout: "/auth"
-  }
+    layout: '/auth',
+  },
 ];
 
 export default routes;

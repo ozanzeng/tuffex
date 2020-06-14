@@ -1,32 +1,38 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import Menu from './Menu';
 
 const Header = ({ paths }) => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = lng => {
+    i18n.changeLanguage(lng);
+  };
+
   const createLinks = (
     <ul>
-      {paths.map((item, key) => (
-        <li key={key}>
-          <NavLink to={item.layout + item.path} key={key}>
-            {item.name}
-          </NavLink>
-        </li>
-      ))}
+      <li>Kategori 1</li>
+      <li>Kategori 2</li>
     </ul>
   );
 
+  const detectLanguage = 'TR';
+
   return (
-    <header className="header container-fluid">
-        <div className="mainLogo">Logo</div>
-        <div className="mainMenu">{createLinks}</div>
-        <div className="headerUtil">
-          <span className="headerLanguage">EN</span>
-          <span className="headerSearch">
-            <i className="icon icon-search" />
-          </span>
-          <span className="headerMenu">
-            <i className="icon icon-menu" />
-          </span>
-        </div>
+    <header className="header container-fluid home-header">
+      <div className="mainLogo">
+        <a href="/" className="logo-text">
+          TUFFEX
+        </a>
+      </div>
+      <div className="mainMenu">{createLinks}</div>
+      <div className="headerUtil">
+        <span className="headerLanguage" onClick={() => changeLanguage(detectLanguage)}>
+          {t('choose language')}
+        </span>
+        <span className="headerSearch" />
+        <Menu paths={paths} />
+      </div>
     </header>
   );
 };

@@ -11,7 +11,7 @@ class DefaultLayout extends Component {
       if (prop.layout === '/default') {
         return <Route path={prop.layout + prop.path} component={prop.component} key={key} />;
       }
-      return <Redirect key={key} to="/default/home" />;
+      return <Redirect key={key} to="/default/ana-sayfa" />;
     });
 
   render() {

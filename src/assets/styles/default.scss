@@ -1,8 +1,16 @@
 // sass --watch src/assets/styles/default.scss:public/style.min.css --style compressed
-@import '../fonts/fonts';
+
+// Bootstrap
 @import './bootstrap/bootstrap-grid';
+
+// Main
+@import './custom//mixin/retina';
+@import '../fonts/fonts';
 @import './custom/variables';
 @import './custom/main';
 @import './custom/header';
 @import './custom/footer';
 
+// Content
+@import './custom/slider';
+@import './custom/sidebar';
