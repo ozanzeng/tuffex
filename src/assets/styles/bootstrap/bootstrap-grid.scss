@@ -22,6 +22,8 @@ html {
 @import "mixins/breakpoints";
 @import "mixins/grid-framework";
 @import "mixins/grid";
+@import "mixins/box-shadow";
+@import "mixins/clearfix";
 
 @import "grid";
 @import "utilities/display";

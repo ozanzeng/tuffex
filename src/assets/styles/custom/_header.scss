@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items : center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  @include box-shadow($header-shadow);
+  background-color: #ffffff;
+  .mainMenu {
+    position: relative;
+  }
+  .mainMenu {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    @include clearfix();
+  }
+  .headerUtil {
+    position: relative;
+  }
+}
+

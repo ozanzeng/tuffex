@@ -6,27 +6,20 @@ import routes from '../routes';
 import Header from '../components/Header';
 
 class DefaultLayout extends Component {
-  getRoutes = routes => {
-    return routes.map((prop, key) => {
-      if (prop.layout === "/default") {
-        return (
-          <Route
-            path={prop.layout + prop.path}
-            component={prop.component}
-            key={key}
-          />
-        );
-      } else {
-        return <Redirect key={key} to='/default/home'/>;
+  getRoutes = route =>
+    route.map((prop, key) => {
+      if (prop.layout === '/default') {
+        return <Route path={prop.layout + prop.path} component={prop.component} key={key} />;
       }
+      return <Redirect key={key} to="/default/home" />;
     });
-  };
+
   render() {
     return (
-      <div className="container">
-          <Header paths={routes} />
-          <Switch>{this.getRoutes(routes)}</Switch>
-      </div>
+      <>
+        <Header paths={routes} />
+        <Switch>{this.getRoutes(routes)}</Switch>
+      </>
     );
   }
 }
