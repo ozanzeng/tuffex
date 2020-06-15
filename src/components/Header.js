@@ -17,9 +17,10 @@ const Header = ({ paths }) => {
   );
 
   const detectLanguage = 'TR';
+  // header-css:  home-header
 
   return (
-    <header className="header container-fluid home-header">
+    <header className="header container-fluid">
       <div className="mainLogo">
         <a href="/" className="logo-text">
           TUFFEX

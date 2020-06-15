@@ -49,8 +49,7 @@
     padding-bottom: 0.8rem;
     margin-top: 1.25rem;
     color: #808080;
-    @include transition(color 200ms ease);
-    @include transition(border-color 200ms ease);
+    @include transition(color 200ms, border-color 200ms ease);
     display: block;
     border-bottom: 1px solid transparent;
     &:first-child {

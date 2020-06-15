@@ -1,11 +1,17 @@
-html,
-body {
+body,
+html {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-overflow: hidden;
+  overflow: hidden;
+}
+#root{
+  height: 100%;
+  > div {
+    height: 100%;
+  }
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -34,4 +40,48 @@ a {
 
 .flex {
   display: flex;
+}
+
+.page-title {
+  position: relative;
+  font-size: 18px;
+  padding-left: 2.25rem;
+  margin-bottom: 2rem;
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    @include imgRetina(sprite, png, 8px, 14px, -128px, -48px);
+    width: 8px;
+    height: 14px;
+    display: block;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.content-h1-title {
+  color: $pink;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.content-p-title {
+  height: 18px;
+  font-size: 14px;
+  color: $pink;
+  margin-bottom: 8px;
+}
+
+.content-p-text {
+  color: $text-light;
+  font-size: 14px;
+  margin-bottom: 14px;
 }

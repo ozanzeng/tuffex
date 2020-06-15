@@ -1,5 +1,22 @@
 $text: #000000;
-$light-text: #7e888e;
+$text-light: #7e888e;
 $pink: #ea1676;
+$pink-light: #f05c9f;
 $header-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.06);
 $box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.1);
+
+.text-pink{
+  color: $pink;
+}
+
+.bg-pink{
+  background-color: $pink;
+}
+
+.btn {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+}

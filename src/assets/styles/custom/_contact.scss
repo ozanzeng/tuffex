@@ -1,0 +1,81 @@
+.contact-article {
+  padding-left: 50px;
+  background-image: linear-gradient(to right, #ffffff 29%, rgba(255, 255, 255, 0) 98%);
+}
+
+.contact-up-content {
+  height: calc(60% - 80px);
+}
+.contact-bottom-content {
+  height: 40%;
+  > .container-fluid {
+    padding: 0;
+  }
+}
+
+.company-image {
+  background-color: turquoise;
+}
+
+.contact-form {
+  position: relative;
+  padding: 2.5rem;
+  color: white;
+  .contact-form-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    .btn-form {
+      border: 2px solid white;
+      padding: 0.75rem;
+      width: 135px;
+      color: white;
+      float: right;
+      @include clearfix();
+      @include transition(color 300ms, background-color 300ms ease);
+      &:hover {
+        background-color: white;
+        color: $pink;
+      }
+    }
+  }
+  .contact-form-title {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .contact-form-body {
+    position: relative;
+    .contact-form-input {
+      position: relative;
+      color: white;
+      font-size: 14px;
+      margin-top: 24px;
+      label {
+        font-size: 12px;
+        display: block;
+        font-weight: 300;
+        margin-bottom: 10px;
+      }
+      input {
+        background-color: $pink-light;
+        padding: 13px;
+        border: 0;
+        font-weight: 500;
+        color: white;
+        outline: 0;
+        width: 100%;
+      }
+      textarea {
+        background-color: $pink-light;
+        padding: 13px;
+        border: 0;
+        font-weight: 500;
+        color: white;
+        outline: 0;
+        width: 100%;
+        resize: none;
+      }
+    }
+  }
+}
