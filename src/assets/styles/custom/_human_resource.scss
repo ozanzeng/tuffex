@@ -1,0 +1,84 @@
+.human-resource-article {
+  padding-top: 50px;
+  padding-left: 50px;
+  background-image: linear-gradient(to right, #ffffff 29%, rgba(255, 255, 255, 0) 98%);
+}
+
+.human-resource-up-content {
+  height: calc(60% - 80px);
+}
+.human-resource-bottom-content {
+  height: 40%;
+  > .container-fluid {
+    padding: 0;
+  }
+}
+
+.btn-outline-pink {
+  border: solid 2px $pink;
+  padding: 0.6rem 1.6rem;
+  color: $pink;
+}
+
+.human-resource-form {
+  position: relative;
+  padding: 2.5rem;
+  color: white;
+  .human-resource-form-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    .btn-form {
+      border: 2px solid white;
+      padding: 0.75rem;
+      width: 135px;
+      color: white;
+      float: right;
+      @include clearfix();
+      @include transition(color 300ms, background-color 300ms ease);
+      &:hover {
+        background-color: white;
+        color: $pink;
+      }
+    }
+  }
+  .human-resource-form-title {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .human-resource-form-body {
+    position: relative;
+    .human-resource-form-input {
+      position: relative;
+      color: white;
+      font-size: 14px;
+      margin-top: 24px;
+      label {
+        font-size: 12px;
+        display: block;
+        font-weight: 300;
+        margin-bottom: 10px;
+      }
+      input {
+        background-color: $pink-light;
+        padding: 13px;
+        border: 0;
+        font-weight: 500;
+        color: white;
+        outline: 0;
+        width: 100%;
+      }
+      textarea {
+        background-color: $pink-light;
+        padding: 13px;
+        border: 0;
+        font-weight: 500;
+        color: white;
+        outline: 0;
+        width: 100%;
+        resize: none;
+      }
+    }
+  }
+}

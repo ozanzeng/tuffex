@@ -1,10 +1,12 @@
 {
   "choose language": "EN",
   "Contact Us": "Bize Ulaşın",
+  "Human Resource": "İnsan Kaynakları",
   "Contact Form": "İletişim Formu",
   "Full Name": "Adı Soyadı",
   "Phone": "Telefon",
   "E-Mail": "E-Posta",
   "Your Message": "Mesajınız",
-  "SEND": "GÖNDER"
+  "SEND": "GÖNDER",
+  "SEND CV": "CV GÖNDER"
 }
