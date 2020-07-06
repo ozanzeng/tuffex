@@ -1,6 +1,17 @@
 .contact-article {
-  padding-left: 50px;
+  padding-left: 5rem;
   background-image: linear-gradient(to right, #ffffff 29%, rgba(255, 255, 255, 0) 98%);
+}
+
+.contact-gmap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: url(images/gmap.jpg) no-repeat center;
+  background-size: cover;
+  z-index: -9;
 }
 
 .contact-up-content {
@@ -14,7 +25,8 @@
 }
 
 .company-image {
-  background-color: turquoise;
+  background: url(images/iletisim.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .contact-form {

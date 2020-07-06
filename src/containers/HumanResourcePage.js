@@ -8,10 +8,10 @@ const HumanResourcePage = () => {
   return (
     <>
       <div className="human-resource-up-content">
-        <PageTitle title="Human Resource" />
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-4 human-resource-article">
+            <div className="col-md-5 human-resource-article">
+              <PageTitle title="Human Resource" />
               <h1 className="content-h1-title">Hemen Başvur</h1>
               <p className="content-p-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor.
@@ -23,7 +23,7 @@ const HumanResourcePage = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-8">a</div>
+            <div className="col-md-7">a</div>
           </div>
         </div>
       </div>

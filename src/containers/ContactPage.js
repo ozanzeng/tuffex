@@ -8,10 +8,10 @@ const ContactPage = () => {
   return (
     <>
       <div className="contact-up-content">
-        <PageTitle title="Contact Us" />
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-4 contact-article">
+            <div className="col-md-6 contact-article">
+              <PageTitle title="Contact Us" />
               <h1 className="content-h1-title">Ut pretium tempor</h1>
               <p className="content-p-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor.
@@ -35,7 +35,7 @@ const ContactPage = () => {
                 info@tuffex.com
               </p>
             </div>
-            <div className="col-md-8">a</div>
+            <div className="contact-gmap" />
           </div>
         </div>
       </div>
