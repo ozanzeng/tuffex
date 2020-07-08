@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CookiesProvider } from "react-cookie";
+import { CookiesProvider } from 'react-cookie';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
 
 // Language settings
-import "./utils/i18n";
+import './utils/i18n';
 
 // Router
 import { BrowserRouter } from 'react-router-dom';
@@ -21,8 +21,9 @@ ReactDOM.render(
         <App />
       </Provider>
     </BrowserRouter>
-  </CookiesProvider>
-  , document.getElementById('root'));
+  </CookiesProvider>,
+  document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -1,18 +1,67 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
+import PageTitle from '../components/PageTitle';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 
-export class CertificatePage extends Component {
-  static propTypes = {
+const CertificatePage = () => {
+  const getConfigurableProps = () => ({
+    showArrows: false,
+    showThumbs: false,
+  });
 
-  }
-
-  render() {
-    return (
-      <div>
-        <h1>CertificatePage</h1>
+  return (
+    <>
+      <div className="certification-content">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12">
+              <PageTitle title="Sertifikalar" />
+              <Carousel {...getConfigurableProps()}>
+                <div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      <div className="certificate">
+                        <img src="/images/sertifika.png" alt="" />
+                      </div>
+                    </div>
+                    <div className="col-md-3">
+                      <div className="certificate">
+                        <img src="/images/sertifika.png" alt="" />
+                      </div>
+                    </div>
+                    <div className="col-md-3">
+                      <div className="certificate">
+                        <img src="/images/sertifika.png" alt="" />
+                      </div>
+                    </div>
+                    <div className="col-md-3">
+                      <div className="certificate">
+                        <img src="/images/sertifika.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="row">
+                    <div className="col-md-3">
+                      <div className="certificate">
+                        <img src="/images/sertifika.png" alt="" />
+                      </div>
+                    </div>
+                    <div className="col-md-3">
+                      <div className="certificate">
+                        <img src="/images/sertifika.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Carousel>
+            </div>
+          </div>
+        </div>
       </div>
-    )
-  }
-}
+    </>
+  );
+};
 
-export default CertificatePage
+export default CertificatePage;
