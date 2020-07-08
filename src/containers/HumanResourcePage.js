@@ -10,7 +10,7 @@ const HumanResourcePage = () => {
       <div className="human-resource-up-content">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-5 human-resource-article">
+            <div className="col-md-7 human-resource-article">
               <PageTitle title="Human Resource" />
               <h1 className="content-h1-title">Hemen Başvur</h1>
               <p className="content-p-text">
@@ -23,7 +23,7 @@ const HumanResourcePage = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-7">a</div>
+            <div className="human-resource-bg" />
           </div>
         </div>
       </div>
@@ -40,10 +40,45 @@ const HumanResourcePage = () => {
                 </div>
                 <div className="row human-resource-form-body">
                   <div className="col-md-12">
-                    <table>
-                      <tr>
-                        <td>asdasd</td>
-                      </tr>
+                    <table className="job-list">
+                      <thead>
+                        <tr>
+                          <th>İlan Tarihi</th>
+                          <th>Referans No</th>
+                          <th>Pozisyon</th>
+                          <th>Şehir</th>
+                          <th> </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td width="20%">30 Aralık 2019</td>
+                          <td width="20%">TF-12345</td>
+                          <td>Consectetur Adipiscing</td>
+                          <td>İstanbul</td>
+                          <td>
+                            <span className="go-table-detail" />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>30 Aralık 2019</td>
+                          <td>TF-12345</td>
+                          <td>Consectetur Adipiscing</td>
+                          <td>İstanbul</td>
+                          <td>
+                            <span className="go-table-detail" />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>30 Aralık 2019</td>
+                          <td>TF-12345</td>
+                          <td>Consectetur Adipiscing</td>
+                          <td>İstanbul</td>
+                          <td>
+                            <span className="go-table-detail" />
+                          </td>
+                        </tr>
+                      </tbody>
                     </table>
                   </div>
                 </div>
