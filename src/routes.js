@@ -1,5 +1,5 @@
 // App pages
-import ProductPage from './containers/ProductPage/ProductPage';
+import ProductListPage from './containers/ProductListPage';
 import HomePage from './containers/HomePage';
 import ContactPage from './containers/ContactPage';
 import HumanResourcePage from './containers/HumanResourcePage';
@@ -32,6 +32,12 @@ const routes = [
     path: '/kategoriler',
     name: 'Kategoriler',
     component: CategoryPage,
+    layout: '/default',
+  },
+  {
+    path: '/urun-listesi',
+    name: 'Ürün Listesi',
+    component: ProductListPage,
     layout: '/default',
   },
   {

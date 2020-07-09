@@ -22,28 +22,28 @@ const CategoryPage = () => {
                   <div className="row">
                     <div className="col-md-3">
                       <div className="category">
-                        <Link to="/kategori-urunleri">
+                        <Link to="./urun-listesi">
                           <img src="/images/kategori.png" alt="" />
                         </Link>
                       </div>
                     </div>
                     <div className="col-md-3">
                       <div className="category">
-                        <Link to="/kategori-urunleri">
+                        <Link to="./urun-listesi">
                           <img src="/images/kategori.png" alt="" />
                         </Link>
                       </div>
                     </div>
                     <div className="col-md-3">
                       <div className="category">
-                        <Link to="/kategori-urunleri">
+                        <Link to="./urun-listesi">
                           <img src="/images/kategori.png" alt="" />
                         </Link>
                       </div>
                     </div>
                     <div className="col-md-3">
                       <div className="category">
-                        <Link to="/kategori-urunleri">
+                        <Link to="./urun-listesi">
                           <img src="/images/kategori.png" alt="" />
                         </Link>
                       </div>
@@ -54,14 +54,14 @@ const CategoryPage = () => {
                   <div className="row">
                     <div className="col-md-3">
                       <div className="category">
-                        <Link to="/kategori-urunleri">
+                        <Link to="./urun-listesi">
                           <img src="/images/kategori.png" alt="" />
                         </Link>
                       </div>
                     </div>
                     <div className="col-md-3">
                       <div className="category">
-                        <Link to="/kategori-urunleri">
+                        <Link to="./urun-listesi">
                           <img src="/images/kategori.png" alt="" />
                         </Link>
                       </div>

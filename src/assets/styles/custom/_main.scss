@@ -63,6 +63,27 @@ a {
   }
 }
 
+.sub-page-title {
+  position: relative;
+  font-size: 28px;
+  padding-left: 2.25rem;
+  margin: 2rem 0;
+  color: $pink;
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+    @include imgRetina(sprite, png, 8px, 14px, -128px, -48px);
+    width: 8px;
+    height: 14px;
+    display: block;
+  }
+}
+
+
 h1, h2, h3, h4, h5, h6, p {
   font-weight: 300;
   margin: 0;

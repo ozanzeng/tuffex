@@ -4,7 +4,6 @@
   height: 100%;
 
   .category {
-    height: 300px;
     box-shadow: $certificate-shadow;
     height: 100%;
     margin: 0 40px;
@@ -36,5 +35,32 @@
   }
   .carousel .slide {
     background-color: transparent;
+  }
+}
+
+.product-list-content {
+  .product-list {
+    width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+    a {
+      display: block;
+    }
+    .product-spot-img {
+      box-shadow: $certificate-shadow;
+      margin-bottom: 6px;
+      text-align: center;
+    }
+    .product-model {
+      font-weight: 300;
+      font-size: 14px;
+      display: block;
+      margin-bottom: 6px;
+    }
+    .product-name {
+      font-weight: 400;
+      font-size: 16px;
+      display: block;
+    }
   }
 }
