@@ -1,0 +1,40 @@
+.category-content {
+  position: relative;
+  display: block;
+  height: 100%;
+
+  .category {
+    height: 300px;
+    box-shadow: $certificate-shadow;
+    height: 100%;
+    margin: 0 40px;
+    @include transition(margin 300ms ease);
+    &:hover {
+      margin-top: -30px;
+      cursor: pointer;
+
+    }
+    a {
+      display: block;
+    }
+  }
+
+  .carousel-root {
+    height: 100%;
+  }
+  .carousel.carousel-slider {
+    height: 100%;
+  }
+  .carousel .slider-wrapper {
+    height: 90%;
+    width: 90% !important;
+  }
+  .carousel .slider-wrapper.axis-horizontal .slider {
+    height: calc(100% - 53px);
+    display: flex;
+    align-items: center;
+  }
+  .carousel .slide {
+    background-color: transparent;
+  }
+}
