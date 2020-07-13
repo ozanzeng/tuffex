@@ -10,32 +10,33 @@ const ContactPage = () => {
       <div className="contact-up-content">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-6 contact-article">
-              <PageTitle title="Contact Us" />
-              <h1 className="content-h1-title">Ut pretium tempor</h1>
-              <p className="content-p-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor.
-                Ut eget imperdiet neque. In volutpat ante semper diam molestie.
-              </p>
-              <p className="content-p-title">Merkez Ofis ve Showroom</p>
-              <p className="content-p-text">
-                İSTOÇ 17. Ada No:14-24 Bağcılar İSTANBUL
-                <br />
-                <span className="text-pink">T</span> +90 212 659 10 48 (pbx)
-                <span className="text-pink">F</span> +90 212 659 68 00
-              </p>
-              <p className="content-p-title">Fabrika</p>
-              <p className="content-p-text">
-                Osmangazi Mahallesi 3143. Sokak No:5 Esenyurt İSTANBUL
-                <br />
-                <span className="text-pink">T</span> +90 212 659 68 30
-                <span className="text-pink">F</span> +90 212 659 68 00
-                <br />
-                <br />
-                info@tuffex.com
-              </p>
+            <div className="col-md-7">
+              <div className="contact-article">
+                <PageTitle title="Contact Us" />
+                <h1 className="content-h1-title">Ut pretium tempor</h1>
+                <p className="content-p-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor.
+                  Ut eget imperdiet neque. In volutpat ante semper diam molestie.
+                </p>
+                <p className="content-p-title">Merkez Ofis ve Showroom</p>
+                <p className="content-p-text">
+                  İSTOÇ 17. Ada No:14-24 Bağcılar İSTANBUL
+                  <br />
+                  <span className="text-pink">T</span> +90 212 659 10 48 (pbx)
+                  <span className="text-pink">F</span> +90 212 659 68 00
+                </p>
+                <p className="content-p-title">Fabrika</p>
+                <p className="content-p-text">
+                  Osmangazi Mahallesi 3143. Sokak No:5 Esenyurt İSTANBUL
+                  <br />
+                  <span className="text-pink">T</span> +90 212 659 68 30
+                  <span className="text-pink">F</span> +90 212 659 68 00
+                  <br />
+                  <br />
+                  info@tuffex.com
+                </p>
+              </div>
             </div>
-            <div className="contact-gmap" />
           </div>
         </div>
       </div>

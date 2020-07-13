@@ -28,7 +28,9 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "redux-promise-middleware": "^6.1.2",
-    "simple-react-lightbox": "^3.2.3-3"
+    "redux-thunk": "^2.3.0",
+    "simple-react-lightbox": "^3.2.3-3",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

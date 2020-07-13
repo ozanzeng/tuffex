@@ -25,7 +25,6 @@ const HumanResourcePage = () => {
                   </button>
                 </div>
               </div>
-              <div className="human-resource-bg" />
             </div>
           </div>
         </div>
