@@ -1,37 +1,49 @@
-.certification-content {
-  position: relative;
-  display: block;
-  height: 100%;
+// .certification-content {
+//   position: relative;
+//   display: block;
+//   height: 100%;
 
-  .certificate {
-    height: 310px;
-    box-shadow: $certificate-shadow;
-    height: 100%;
-    margin: 0 40px;
-    @include transition(margin 300ms ease);
-    &:hover {
-      margin-top: -30px;
-      cursor: pointer;
+//   .certificate {
+//     height: 310px;
+//     box-shadow: $certificate-shadow;
+//     height: 100%;
+//     margin: 0 40px;
+//     @include transition(margin 300ms ease);
+//     &:hover {
+//       margin-top: -30px;
+//       cursor: pointer;
 
-    }
-  }
+//     }
+//   }
 
-  .carousel-root {
-    height: 100%;
-  }
-  .carousel.carousel-slider {
-    height: 100%;
-  }
-  .carousel .slider-wrapper {
-    height: 90%;
-    width: 90% !important;
-  }
-  .carousel .slider-wrapper.axis-horizontal .slider {
-    height: calc(100% - 53px);
+  .carousel-item {
     display: flex;
+    justify-content: center;
     align-items: center;
+    height: 250px;
+    width: 100%;
+    background-color: #683bb7;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 4em;
   }
-  .carousel .slide {
-    background-color: transparent;
-  }
-}
+
+//   .carousel-root {
+//     height: 100%;
+//   }
+//   .carousel.carousel-slider {
+//     height: 100%;
+//   }
+//   .carousel .slider-wrapper {
+//     height: 90%;
+//     width: 90% !important;
+//   }
+//   .carousel .slider-wrapper.axis-horizontal .slider {
+//     height: calc(100% - 53px);
+//     display: flex;
+//     align-items: center;
+//   }
+//   .carousel .slide {
+//     background-color: transparent;
+//   }
+// }

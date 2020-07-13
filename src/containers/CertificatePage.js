@@ -1,23 +1,32 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import PageTitle from '../components/PageTitle';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+
+const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 2 },
+  { width: 768, itemsToShow: 3 },
+  { width: 1200, itemsToShow: 4 },
+];
 
 const CertificatePage = () => {
-  const getConfigurableProps = () => ({
-    showArrows: false,
-    showThumbs: false,
-  });
-
   return (
     <>
-      <div className="certification-content">
+      <Carousel Carousel breakPoints={breakPoints}>
+        <div className="carousel-item">1</div>
+        <div className="carousel-item">2</div>
+        <div className="carousel-item">3</div>
+        <div className="carousel-item">4</div>
+        <div className="carousel-item">5</div>
+        <div className="carousel-item">6</div>
+      </Carousel>
+      {/* <div className="certification-content">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
               <PageTitle title="Sertifikalar" />
-              <Carousel {...getConfigurableProps()}>
-                <div>
+              {/* <Carousel {...getConfigurableProps()}>
+                <div maxWidth="25%">
                   <div className="row">
                     <div className="col-md-3">
                       <div className="certificate">
@@ -59,7 +68,7 @@ const CertificatePage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

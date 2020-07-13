@@ -1,92 +1,92 @@
-.main-slider {
-  margin-top: -80px;
-  height: 100%;
-  width: 50%;
-}
+// .main-slider {
+//   margin-top: -80px;
+//   height: 100%;
+//   width: 50%;
+// }
 
 // This plugin default scss is here, https://github.com/leandrowd/react-responsive-carousel/blob/master/src/components/_carousel.scss
-.carousel {
-  position: relative !important;
-  width: 100% !important;
+// .carousel {
+//   position: relative !important;
+//   width: 100% !important;
 
-  img {
-    width: 100% !important;
-    display: inline-block !important;
-    pointer-events: none !important;
-  }
+//   img {
+//     width: 100% !important;
+//     display: inline-block !important;
+//     pointer-events: none !important;
+//   }
 
-  .thumbs-wrapper {
-    margin: 20px !important;
-    overflow: hidden !important;
-  }
+//   .thumbs-wrapper {
+//     margin: 20px !important;
+//     overflow: hidden !important;
+//   }
 
-  .thumb {
-    &:focus {
-      border: none !important;
-      outline: none !important;
-    }
+//   .thumb {
+//     &:focus {
+//       border: none !important;
+//       outline: none !important;
+//     }
 
-    &.selected,
-    &:hover {
-      border: 3px solid red !important;
-    }
-  }
+//     &.selected,
+//     &:hover {
+//       border: 3px solid red !important;
+//     }
+//   }
 
-  .slider-wrapper {
-    overflow: hidden !important;
-    margin: auto !important;
-    width: 100% !important;
-  }
+//   .slider-wrapper {
+//     overflow: hidden !important;
+//     margin: auto !important;
+//     width: 100% !important;
+//   }
 
-  .slider {
-    margin: 0 !important;
-    padding: 0 !important;
-    position: relative !important;
-    list-style: none !important;
-    width: 100% !important;
-  }
+//   .slider {
+//     margin: 0 !important;
+//     padding: 0 !important;
+//     position: relative !important;
+//     list-style: none !important;
+//     width: 100% !important;
+//   }
 
-  .slide {
-    img {
-      width: 100% !important;
-      vertical-align: top !important;
-      border: 0 !important;
-    }
-  }
+//   .slide {
+//     img {
+//       width: 100% !important;
+//       vertical-align: top !important;
+//       border: 0 !important;
+//     }
+//   }
 
-  .control-dots {
-    bottom: 50% !important;
-    .dot {
-      opacity: 1 !important;
-      box-shadow: none !important;
-      background: $text !important;
-      border-radius: 0 !important;
-      width: 17px !important;
-      height: 2px !important;
-      display: block !important;
-      margin: 0 0 1rem 0 !important;
+//   .control-dots {
+//     bottom: 50% !important;
+//     .dot {
+//       opacity: 1 !important;
+//       box-shadow: none !important;
+//       background: $text !important;
+//       border-radius: 0 !important;
+//       width: 17px !important;
+//       height: 2px !important;
+//       display: block !important;
+//       margin: 0 0 1rem 0 !important;
 
-      &.selected,
-      &:hover {
-        width: 31px !important;
-        background: $pink !important;
-      }
-    }
+//       &.selected,
+//       &:hover {
+//         width: 31px !important;
+//         background: $pink !important;
+//       }
+//     }
 
-    .carousel-status {
-      position: absolute !important;
-      top: 0 !important;
-      right: 0 !important;
-      padding: 5px !important;
-      font-size: 10px !important;
-      text-shadow: none !important;
-      color: red !important;
-    }
+//     .carousel-status {
+//       position: absolute !important;
+//       top: 0 !important;
+//       right: 0 !important;
+//       padding: 5px !important;
+//       font-size: 10px !important;
+//       text-shadow: none !important;
+//       color: red !important;
+//     }
 
-    &:hover {
-      .slide .legend {
-          opacity: 1 !important;
-      }
-    }
-  }
-}
+//     &:hover {
+//       .slide .legend {
+//           opacity: 1 !important;
+//       }
+//     }
+//   }
+// }
