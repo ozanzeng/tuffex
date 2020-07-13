@@ -2,13 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { CookiesProvider } from 'react-cookie';
 import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
 import { store } from './redux/store';
 
 // Language settings
 import './utils/i18n';
-
-// Router
-import { BrowserRouter } from 'react-router-dom';
 
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
