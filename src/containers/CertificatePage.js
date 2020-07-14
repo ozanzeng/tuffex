@@ -1,5 +1,6 @@
 import React from 'react';
-import Carousel, { consts } from 'react-elastic-carousel';
+import Carousel from 'react-elastic-carousel';
+import { Link } from 'react-router-dom';
 import PageTitle from '../components/PageTitle';
 import { certificationBreakPoints } from '../utils/functions';
 
@@ -16,26 +17,68 @@ const CertificatePage = () => {
               <Carousel breakPoints={certificationBreakPoints} renderArrow={myArrow}>
                 <div className="carousel-item">
                   <img src="/images/sertifika.png" alt="" />
+                  <div className="item-bottom">
+                    <div className="item-bottom-button">
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
+                    </div>
+                  </div>
                 </div>
                 {/* End slider item */}
                 <div className="carousel-item">
                   <img src="/images/sertifika.png" alt="" />
+                  <div className="item-bottom">
+                    <div className="item-bottom-button">
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
+                    </div>
+                  </div>
                 </div>
                 {/* End slider item */}
                 <div className="carousel-item">
                   <img src="/images/sertifika.png" alt="" />
+                  <div className="item-bottom">
+                    <div className="item-bottom-button">
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
+                    </div>
+                  </div>
                 </div>
                 {/* End slider item */}
                 <div className="carousel-item">
                   <img src="/images/sertifika.png" alt="" />
+                  <div className="item-bottom">
+                    <div className="item-bottom-button">
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
+                    </div>
+                  </div>
                 </div>
                 {/* End slider item */}
                 <div className="carousel-item">
                   <img src="/images/sertifika.png" alt="" />
+                  <div className="item-bottom">
+                    <div className="item-bottom-button">
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
+                    </div>
+                  </div>
                 </div>
                 {/* End slider item */}
                 <div className="carousel-item">
                   <img src="/images/sertifika.png" alt="" />
+                  <div className="item-bottom">
+                    <div className="item-bottom-button">
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
+                    </div>
+                  </div>
                 </div>
                 {/* End slider item */}
               </Carousel>
