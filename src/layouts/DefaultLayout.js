@@ -5,6 +5,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import routes from '../routes';
 import Header from '../components/Header';
 
+
 class DefaultLayout extends Component {
   getRoutes = route =>
     route.map((prop, key) => {
@@ -13,11 +14,17 @@ class DefaultLayout extends Component {
       }
       return <Redirect key={key} to="/default/ana-sayfa" />;
     });
+    
+    changeUrl = () => window.location.pathname;
+
+  componentDidMount() {
+    this.changeUrl();
+  }
 
   render() {
     return (
       <>
-        <Header paths={routes} />
+        <Header paths={routes} homeHeader={this.changeUrl() === '/default/ana-sayfa' ? true : ''} />
         <Switch>{this.getRoutes(routes)}</Switch>
       </>
     );

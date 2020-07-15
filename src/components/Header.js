@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Menu from './Menu';
 
-const Header = ({ paths }) => {
+const Header = ({ paths, homeHeader }) => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = lng => {
@@ -17,10 +17,9 @@ const Header = ({ paths }) => {
   );
 
   const detectLanguage = 'TR';
-  // header-css:  home-header
 
   return (
-    <header className="header container-fluid">
+    <header className={`header container-fluid ${homeHeader === true && 'home-header'}`}>
       <div className="mainLogo">
         <a href="/" className="logo-text">
           TUFFEX
