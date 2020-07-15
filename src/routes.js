@@ -1,4 +1,5 @@
 // App pages
+import ProductDetailPage from './containers/ProductDetailPage';
 import ProductListPage from './containers/ProductListPage';
 import HomePage from './containers/HomePage';
 import ContactPage from './containers/ContactPage';
@@ -38,6 +39,12 @@ const routes = [
     path: '/urun-listesi',
     name: 'Ürün Listesi',
     component: ProductListPage,
+    layout: '/default',
+  },
+  {
+    path: '/urun-detay',
+    name: 'Ürün Detay',
+    component: ProductDetailPage,
     layout: '/default',
   },
   {

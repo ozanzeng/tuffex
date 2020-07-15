@@ -45,7 +45,7 @@ const ContactPage = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-4 company-image" />
-            <div className="col-md8 bg-pink">
+            <div className="col-md-8 bg-pink">
               <div className="contact-form">
                 <div className="row contact-form-header">
                   <div className="col-sm-6">

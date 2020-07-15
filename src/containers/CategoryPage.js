@@ -1,8 +1,8 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
+import { Link } from 'react-router-dom';
 import PageTitle from '../components/PageTitle';
 import { certificationBreakPoints } from '../utils/functions';
-import { Link } from 'react-router-dom';
 
 const CategoryPage = () => {
   const myArrow = () => <span />;
@@ -21,7 +21,9 @@ const CategoryPage = () => {
                   <div className="item-bottom">
                     <div className="item-bottom-text">12 Adet</div>
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">DETAYLAR</Link>
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -31,7 +33,9 @@ const CategoryPage = () => {
                   <div className="item-bottom">
                     <div className="item-bottom-text">12 Adet</div>
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">DETAYLAR</Link>
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -41,7 +45,9 @@ const CategoryPage = () => {
                   <div className="item-bottom">
                     <div className="item-bottom-text">12 Adet</div>
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">DETAYLAR</Link>
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -51,7 +57,9 @@ const CategoryPage = () => {
                   <div className="item-bottom">
                     <div className="item-bottom-text">12 Adet</div>
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">DETAYLAR</Link>
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -61,7 +69,9 @@ const CategoryPage = () => {
                   <div className="item-bottom">
                     <div className="item-bottom-text">12 Adet</div>
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">DETAYLAR</Link>
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -71,7 +81,9 @@ const CategoryPage = () => {
                   <div className="item-bottom">
                     <div className="item-bottom-text">12 Adet</div>
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">DETAYLAR</Link>
+                      <Link to="/" className="btn btn-outline">
+                        DETAYLAR
+                      </Link>
                     </div>
                   </div>
                 </div>
