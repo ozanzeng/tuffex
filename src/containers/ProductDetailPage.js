@@ -43,9 +43,7 @@ const ProductDetailPage = () => {
 
   const breakPoints = [
     { width: 1, itemsToShow: 3 },
-    { width: 550, itemsToShow: 2, verticalMode: false },
-    { width: 850, itemsToShow: 3 },
-    { width: 1150, itemsToShow: 4 },
+    { width: 600, itemsToShow: 3},
   ];
 
   return (
@@ -57,7 +55,7 @@ const ProductDetailPage = () => {
             <SubCategoryName title={PageTitleName} />
           </div>
           {/* Detail Start */}
-          <div className="col-lg-2 col-md-4 col-sm-4 12">
+          <div className="col-lg-2 col-md-4 col-sm-4 col-3">
             <div className="product-small-images">
               <Carousel
                 renderArrow={myArrow}
@@ -73,7 +71,7 @@ const ProductDetailPage = () => {
               </Carousel>
             </div>
           </div>
-          <div className="col-lg-4 col-md-8 col-sm-8 col-12">
+          <div className="col-lg-4 col-md-8 col-sm-8 col-9">
             <div className="product-big-img">
               <img src={selectedImage} alt="" className="img-responsive" />
             </div>
