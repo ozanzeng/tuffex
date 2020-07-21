@@ -15,6 +15,7 @@ const Menu = ({ paths }) => {
             activeClassName="menu-active-link"
             to={item.layout + item.path}
             key={key}
+            onClick={handleMenuToggle}
             className="menu-link"
           >
             {item.name}
