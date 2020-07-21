@@ -43,7 +43,7 @@ const ProductDetailPage = () => {
 
   const breakPoints = [
     { width: 1, itemsToShow: 3 },
-    { width: 600, itemsToShow: 3},
+    { width: 600, itemsToShow: 3 },
   ];
 
   return (
@@ -116,6 +116,7 @@ const ProductDetailPage = () => {
           {/* Detail End */}
         </div>
       </div>
+      
     </div>
   );
 };
