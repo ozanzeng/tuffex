@@ -55,7 +55,7 @@ a {
     bottom: 0;
     left: 20px;
     margin: auto;
-    @include imgRetina(sprite, png, 8px, 14px, -128px, -48px);
+    @include imgRetina(sprite, png, 166px, 77px, -128px, -48px);
     width: 8px;
     height: 14px;
     display: block;
@@ -75,7 +75,7 @@ a {
     bottom: 0;
     left: 20px;
     margin: auto;
-    @include imgRetina(sprite, png, 8px, 14px, -128px, -48px);
+    @include imgRetina(sprite, png, 166px, 77px, -128px, -48px);
     width: 8px;
     height: 14px;
     display: block;

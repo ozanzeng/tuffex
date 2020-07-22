@@ -88,25 +88,25 @@
       }
     }
     .icon-facebook {
-      @include imgRetina(sprite, png, 12px, 21px, -1px, -57px);
+      @include imgRetina(sprite, png, 166px, 77px, -1px, -57px);
       width: 12px;
       height: 21px;
       display: block;
     }
     .icon-instagram {
-      @include imgRetina(sprite, png, 21px, 21px, -19px, -55px);
+      @include imgRetina(sprite, png, 166px, 77px, -19px, -55px);
       width: 21px;
       height: 21px;
       display: block;
     }
     .icon-twitter {
-      @include imgRetina(sprite, png, 23px, 19px, -46px, -55px);
+      @include imgRetina(sprite, png, 166px, 77px, -46px, -55px);
       width: 23px;
       height: 19px;
       display: block;
     }
     .icon-youtube {
-      @include imgRetina(sprite, png, 23px, 16px, -75px, -53px);
+      @include imgRetina(sprite, png, 166px, 77px, -75px, -53px);
       width: 23px;
       height: 16px;
       display: block;
@@ -118,7 +118,7 @@
     cursor: pointer;
     top: 2rem;
     right: 2.5rem;
-    @include imgRetina(sprite, png, 20px, 20px, -140px, 0);
+    @include imgRetina(sprite, png, 166px, 77px, -140px, 0);
     width: 20px;
     height: 20px;
     display: block;
