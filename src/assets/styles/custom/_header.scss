@@ -2,15 +2,17 @@
   position: relative;
   z-index: 9999;
   display: flex;
-  align-items : center;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
   height: 80px;
   background-color: #ffffff;
   box-shadow: $header-shadow;
+
   .mainLogo {
     width: 135px;
     height: 43px;
+
     .logo-text {
       @include imgRetina(sprite, png, 166px, 77px, -1px, 0);
       width: 135px;
@@ -20,31 +22,79 @@
       text-indent: -99999px;
     }
   }
+
   .mainMenu {
     position: relative;
-    ul {
-      > li {
-        display: inline-block;
-        margin-right: 15px;
-      }
+    margin: 0 15px;
+
+    .menuLink {
+      margin-right: 15px;
+    }
+
+    .gEIJqc {
+      background-color: transparent;
+      box-shadow: none;
+      border-radius: 0%;
+      border: none;
+      width: 39px;
+      height: 39px;
+      min-width: 39px;
+      line-height: 39px;
+    }
+
+    .gEIJqc:hover:enabled,
+    .gEIJqc:focus:enabled {
+      background-color: transparent;
+      box-shadow: none;
+      color: $pink;
+    }
+
+    .cNRLLS {
+      border-right: 1px solid #979797;
+      border-left: 1px solid #979797;
+      margin: 0;
+    }
+
+    .jBnCOy {
+      display: none;
+    }
+
+    .fptlcG {
+      background-color: transparent;
+      box-shadow: none;
+      border-radius: 0%;
+      border: none;
+      width: 39px;
+      height: 39px;
+      min-width: 39px;
+      line-height: 39px;
+    }
+
+    .kyQlHw {
+      height: 39px;
+      line-height: 39px;
     }
   }
+
   .mainMenu {
     position: relative;
     text-align: left;
     width: 100%;
     @include clearfix();
   }
+
   .headerUtil {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     .headerLanguage {
       display: inline-block;
       border: solid 2px $text;
       padding: 6px;
     }
+
     .headerSearch {
       display: inline-block;
       @include imgRetina(sprite, png, 166px, 77px, -140px, -26px);
@@ -52,6 +102,7 @@
       height: 27px;
       margin: 0 32px;
     }
+
     .headerMenu {
       display: inline-block;
       border: none;
@@ -68,3 +119,9 @@
   box-shadow: none;
 }
 
+
+@media screen and (max-width: 765px) {
+  .header .mainMenu {
+    display: none;
+  }
+}
