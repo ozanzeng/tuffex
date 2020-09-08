@@ -57,7 +57,7 @@ const Menu = ({ paths }) => {
         </div>
       </div>
       <div
-        className={`${menuToggle === false ? 'shadow-passive' : 'shadow-active'} shadow`}
+        className={`${menuToggle ? 'shadow-active' : 'shadow-passive'} shadow`}
         onClick={handleMenuToggle}
       />
     </>

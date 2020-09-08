@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
-import { Link } from 'react-router-dom';
+import BigImage from '../components/BigImage';
 import PageTitle from '../components/PageTitle';
 import { certificationBreakPoints } from '../utils/functions';
 
@@ -19,9 +19,7 @@ const CertificatePage = () => {
                   <img src="/images/sertifika.png" alt="" />
                   <div className="item-bottom">
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">
-                        DETAYLAR
-                      </Link>
+                      <BigImage img="/images/sertifika.png" />
                     </div>
                   </div>
                 </div>
@@ -30,9 +28,7 @@ const CertificatePage = () => {
                   <img src="/images/sertifika.png" alt="" />
                   <div className="item-bottom">
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">
-                        DETAYLAR
-                      </Link>
+                      <BigImage img="/images/sertifika.png" />
                     </div>
                   </div>
                 </div>
@@ -41,9 +37,7 @@ const CertificatePage = () => {
                   <img src="/images/sertifika.png" alt="" />
                   <div className="item-bottom">
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">
-                        DETAYLAR
-                      </Link>
+                      <BigImage img="/images/sertifika.png" />
                     </div>
                   </div>
                 </div>
@@ -52,9 +46,7 @@ const CertificatePage = () => {
                   <img src="/images/sertifika.png" alt="" />
                   <div className="item-bottom">
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">
-                        DETAYLAR
-                      </Link>
+                      <BigImage img="/images/sertifika.png" />
                     </div>
                   </div>
                 </div>
@@ -63,9 +55,7 @@ const CertificatePage = () => {
                   <img src="/images/sertifika.png" alt="" />
                   <div className="item-bottom">
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">
-                        DETAYLAR
-                      </Link>
+                      <BigImage img="/images/sertifika.png" />
                     </div>
                   </div>
                 </div>
@@ -74,9 +64,7 @@ const CertificatePage = () => {
                   <img src="/images/sertifika.png" alt="" />
                   <div className="item-bottom">
                     <div className="item-bottom-button">
-                      <Link to="/" className="btn btn-outline">
-                        DETAYLAR
-                      </Link>
+                      <BigImage img="/images/sertifika.png" />
                     </div>
                   </div>
                 </div>
