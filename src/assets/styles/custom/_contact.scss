@@ -2,29 +2,50 @@
   padding: 2rem 2rem 4rem;
   background-image: linear-gradient(to right, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
 }
+
 .contact-up-content {
-  background: url(images/contact-bg.jpg) no-repeat center right; 
+  background: url(images/contact-bg.jpg) no-repeat center right;
   background-size: cover;
 }
+
 .company-image {
-  background: url(images/company-image.jpg) no-repeat center right; 
+  background: url(images/company-image.jpg) no-repeat center right;
   background-size: cover;
 }
+
 .contact-bottom-content {
   display: block;
 }
 
-.content-h1-title {margin-top: 2rem;}
+.content-h1-title {
+  margin-top: 2rem;
+}
 
 .contact-form {
   position: relative;
   padding: 2.5rem;
   color: white;
+
+  .strong-text {
+    font-weight: 500;
+    margin-bottom: 25px;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .normal-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
   .contact-form-header {
     position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 26px;
+
     .btn-form {
       border: 2px solid white;
       padding: 0.75rem;
@@ -33,29 +54,35 @@
       float: right;
       @include clearfix();
       @include transition(color 300ms, background-color 300ms ease);
+
       &:hover {
         background-color: white;
         color: $pink;
       }
     }
   }
+
   .contact-form-title {
     font-weight: 500;
     font-size: 24px;
   }
+
   .contact-form-body {
     position: relative;
+
     .contact-form-input {
       position: relative;
       color: white;
       font-size: 14px;
       margin-top: 24px;
+
       label {
         font-size: 12px;
         display: block;
         font-weight: 300;
         margin-bottom: 10px;
       }
+
       input {
         background-color: $pink-light;
         padding: 13px;
@@ -65,6 +92,7 @@
         outline: 0;
         width: 100%;
       }
+
       textarea {
         background-color: $pink-light;
         padding: 13px;

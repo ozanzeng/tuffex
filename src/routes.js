@@ -4,6 +4,7 @@ import ProductListPage from './containers/ProductListPage';
 import HomePage from './containers/HomePage';
 import ContactPage from './containers/ContactPage';
 import HumanResourcePage from './containers/HumanResourcePage';
+import AboutUsPage from './containers/AboutUsPage';
 import CertificatePage from './containers/CertificatePage';
 import CategoryPage from './containers/CategoryPage';
 
@@ -21,6 +22,12 @@ const routes = [
     path: '/insan-kaynaklari',
     name: 'Insan Kaynakları',
     component: HumanResourcePage,
+    layout: '/default',
+  },
+  {
+    path: '/hakkimizda',
+    name: 'Hakkımızda',
+    component: AboutUsPage,
     layout: '/default',
   },
   {
